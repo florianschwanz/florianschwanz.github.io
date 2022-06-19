@@ -30,6 +30,12 @@ Run this command to generate the page
 hugo --minify
 ```
 
+Run this command to run a local server
+
+```
+hugo server -D
+```
+
 ## Roadmap
 
 See the [open issues](https://github.com/florianschwanz/florianschwanz.github.io/issues) for a list of proposed features (and

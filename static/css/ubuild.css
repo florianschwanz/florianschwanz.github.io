@@ -4,6 +4,14 @@
     padding: 0
 }
 
+:root {
+    --background-color: #F2EFE6;
+}
+
+#primary-content {
+    background-color: var(--background-color);
+}
+
 h1 {
     font-size: 48px;
     font-size: 3rem;
@@ -277,6 +285,66 @@ input.inverted::placeholder {
 .block-header-3--logo img {
     max-height: 24px;
     max-height: 1.5rem
+}
+
+.block-header-4 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 16px 32px;
+    padding: 1rem 2rem
+}
+
+.block-header-4 .nav-item {
+    display: block;
+    list-style: none;
+    margin-right: 16px;
+    margin-right: 1rem;
+    font-size: 13.6px;
+    font-size: .85rem
+}
+
+.block-header-4 .nav-item a {
+    text-decoration: none;
+    color: #2b2b2b
+}
+
+.block-header-4 .nav-item a:hover {
+    color: #666
+}
+
+.block-header-4 .nav-item.active a:hover {
+    color: #ffcb3c
+}
+
+.block-header-4 .nav-item-numbered {
+    counter-increment: li-count;
+}
+
+.block-header-4 .nav-item-numbered:before {
+    content: '[0' counter( li-count) '] ....... ';
+}
+
+.block-header-4--title h1 {
+    font-size: 3rem;
+}
+
+.block-header-4--title a {
+    text-decoration: none;
+    color: #2b2b2b;
+    text-transform: uppercase;
+}
+
+.block-header-4--nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+
+    font-family: monospace;
 }
 
 .block-hero-1 {
@@ -702,6 +770,50 @@ input.inverted::placeholder {
     }
 }
 
+.block-feature-1--nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+
+    font-family: monospace;
+    margin-bottom: 40%;
+
+    text-align: left;
+}
+
+.block-feature-1 .nav-item {
+    display: block;
+    list-style: none;
+    margin-right: 16px;
+    margin-right: 1rem;
+}
+
+.block-feature-1 .nav-item.active a {
+    color: #ffcb3c
+}
+
+.block-feature-1 .nav-item a {
+    text-decoration: none;
+    color: #2b2b2b
+}
+
+.block-feature-1 .nav-item a:hover {
+    color: #666
+}
+
+.block-feature-1 .nav-item.active a:hover {
+    color: #ffcb3c
+}
+
+.block-feature-1 .nav-item-numbered {
+    counter-increment: li-count;
+}
+
+.block-feature-1 .nav-item-numbered:before {
+    content: '[0' counter( li-count) '] ....... ';
+}
+
 .block-feature-2 .columns {
     display: -ms-flexbox;
     display: flex;
@@ -832,4 +944,23 @@ body {
 ::selection {
     background: #ffedbc;
     color: #333
+}
+
+.column .social-icon {
+    height: 1rem;
+    vertical-align: bottom;
+}
+
+.column a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox {
+    flex-grow: 1;
 }
