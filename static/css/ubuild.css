@@ -973,7 +973,7 @@ input.inverted::placeholder {
 }
 
 .block-feature-3 .nav-item-numbered:before {
-    content: '[0' counter( li-count) '].......';
+    content: '[0' counter( li-count) '] ....... ';
 }
 
 .block-media-1 img {
