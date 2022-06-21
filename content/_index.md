@@ -6,6 +6,12 @@ page_sections:
 - template: navigation-header-w-button
   block: header-4
   title: Florian Schwanz
+  cta:
+    link_url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
+    link_text: Download
+    open_in_new_tab: true
+- template: content-feature
+  block: feature-3
   navigation:
   - link_url: "#"
     link_text: Data Storytelling
@@ -17,12 +23,6 @@ page_sections:
     link_text: Fullstack Development
   - link_url: "#"
     link_text: Blog
-  cta:
-    link_url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
-    link_text: Download
-    open_in_new_tab: true
-- template: content-feature
-  block: feature-1
   media_alignment: Right
   headline: <strong>We are all stories in the end</strong><span class="light">,<br/>just make it a good one</span>
   content: Countless new stories to be told<br/>Many new insights to be gained<br/>Thousands of new things to learn along the way<br/>Let's go
