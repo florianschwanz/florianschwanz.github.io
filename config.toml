@@ -1,4 +1,4 @@
-baseURL = "https://florianschwanz.github.io"
+baseURL = "https://florianschwanz.de"
 languageCode = "en-us"
 title = "uBuild: A Page Builder For Hugo and Forestry.io"
 theme = "ubuild-hugo"

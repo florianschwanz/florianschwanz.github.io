@@ -3,7 +3,7 @@
 
 <br />
 <p align="center">
-  <a href="https://img.shields.io/github/issues/florianschwanz/florianschwanz.github.io">
+  <a href="https://img.shields.io/github/issues/florianschwanz/florianschwanz.de">
     <img src="./logo.png" alt="Logo" width="80" height="80">
   </a>
 
